@@ -1,6 +1,5 @@
-git init
-git add .
-git commit -m "Initial backend commit"
-git branch -M main
-git remote add origin https://github.com/lissybom/ehr-backend.git
-git push -u origin main
+git add -f package.json
+git commit -m "Force added package.json"
+git push origin main
+
+
